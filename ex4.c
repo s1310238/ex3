@@ -6,6 +6,11 @@
 int main(){
   int i,sum=0;
   int score[5];
+  char name[10];
+
+  printf("What your name?\n> ");
+  scanf("%s",name);
+  printf("Hello, %s!\n",name);
   
   printf("Rolling dice...\n");
   
