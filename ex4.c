@@ -24,6 +24,6 @@ int main(){
   sum = score[0] + score[1];
   printf("Total value: %d\n",sum);
 
-  if(sum > 6) printf("You won!");
-  else printf("You lose.");
+  if(sum > 6) printf("%s won!",name);
+  else printf("%s lost!",name);
 }
